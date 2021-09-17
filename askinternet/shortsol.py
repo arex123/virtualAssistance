@@ -3,7 +3,7 @@ from pyexpat import error
 from askinternet.wiki import wikiask
 import wolframalpha
 from tellcommand import take_command, talk
-client = wolframalpha.Client("LLKY8E-9XT98YXP3T")
+client = wolframalpha.Client("?")
 import pyttsx3
 
 engine = pyttsx3.init()
