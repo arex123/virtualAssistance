@@ -7,7 +7,7 @@ BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 def weather():
     talk("hello sir, please tell the city for weather")
     CITY = take_command()
-    API_KEY = '6f8be79031ae9a3c8d10299e4970dcd4'
+    API_KEY = '?'
 
     URL = BASE_URL + "q=" + CITY + "&units=metric" + "&appid=" + API_KEY
 
